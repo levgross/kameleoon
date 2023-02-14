@@ -1,4 +1,4 @@
-package kameleoon.DTO;
+package kameleoon.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

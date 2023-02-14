@@ -1,7 +1,7 @@
 package kameleoon.service;
 
-import kameleoon.DTO.QuoteInDTO;
-import kameleoon.DTO.QuoteOutDTO;
+import kameleoon.dto.QuoteInDTO;
+import kameleoon.dto.QuoteOutDTO;
 import kameleoon.model.Quote;
 
 import java.util.List;

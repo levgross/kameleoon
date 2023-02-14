@@ -1,6 +1,6 @@
 package kameleoon.service;
 
-import kameleoon.DTO.UserDTO;
+import kameleoon.dto.UserDTO;
 import kameleoon.model.User;
 
 import java.util.Optional;

@@ -1,6 +1,6 @@
 package kameleoon.controller;
 
-import kameleoon.DTO.UserDTO;
+import kameleoon.dto.UserDTO;
 import kameleoon.model.User;
 import kameleoon.service.UserService;
 import lombok.AllArgsConstructor;

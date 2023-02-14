@@ -1,7 +1,7 @@
 package kameleoon.service;
 
-import kameleoon.DTO.QuoteInDTO;
-import kameleoon.DTO.UserDTO;
+import kameleoon.dto.QuoteInDTO;
+import kameleoon.dto.UserDTO;
 import kameleoon.model.Quote;
 import kameleoon.model.User;
 import kameleoon.model.Vote;
