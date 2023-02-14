@@ -16,14 +16,18 @@
 - view of the top and worse 10 quotes, the details of each quote, and ideally a graph of the evolution of the votes over time.
 
 
-### Not requested:
+### API:
 
-frontend part, authentication mechanism, and account rights management.
-
-
-If you have some questions about business logic not covered here, you can choose yourself the answer, no need to ask us. At this point, the goal is to evaluate your coding skills, not how you respect a technical specification (this is also important, but can come later :-).
-
-The full exercise can take about 6-8 hours (for a middle-level developer; longer for a junior) but the goal is not necessarily to do everything. You need to show your development skills, respect of best practices, understanding of the web development model (client, server), ability to deliver your work to a production-like environment, and your productivity.
+- create user: POST ```http://localhost:8080/api/user```
+- create quote: POST ```http://localhost:8080/api/quote```
+- edit quote: PUT ```http://localhost:8080/api/quote```
+- delete quote: DELETE ```http://localhost:8080/api/quote/{id}```
+- get details of the quote: GET ```http://localhost:8080/api/quote/{id}```
+- get random quote: GET ```http://localhost:8080/api/quote/random```
+- get best 10 quotes by score: GET ```http://localhost:8080/api/quote/best10```
+- get worst 10 quotes by score: GET ```http://localhost:8080/api/quote/worst10```
+- upvote: POST ```http://localhost:8080/api/vote/{userId}/{quoteId}/{true}```
+- downvote: POST ```http://localhost:8080/api/vote/{userId}/{quoteId}/{false}```
 
 ### Technologies:
 - Java 17
