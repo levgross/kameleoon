@@ -30,7 +30,6 @@ The full exercise can take about 6-8 hours (for a middle-level developer; longer
 - Maven 3.8.4,
 - H2 database
 - Lombok
-- Docker
 
 ### Environment:
 Install:

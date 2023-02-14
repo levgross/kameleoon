@@ -22,5 +22,5 @@ public class User {
     private String name;
     private String email;
     private String password;
-    private LocalDateTime created;
+    private LocalDateTime created = LocalDateTime.now();
 }
