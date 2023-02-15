@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  app:
+    build: .
+    image: levgross/kameleoon
+    container_name: kameleoon-trial-task
+    restart: always
+    ports:
+      - 127.0.0.1:8080:8080

@@ -29,10 +29,16 @@
 - upvote: POST ```http://localhost:8080/api/vote/{userId}/{quoteId}/{true}```
 - downvote: POST ```http://localhost:8080/api/vote/{userId}/{quoteId}/{false}```
 
+### DockerHub image:
+
+https://hub.docker.com/r/levgross/kameleoon
+
 ### Technologies:
 - Java 17
 - Maven 3.8.4,
 - H2 database
+- Liquibase
+- Docker
 - Lombok
 
 ### Environment:
