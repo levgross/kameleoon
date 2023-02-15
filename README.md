@@ -18,9 +18,9 @@
 
 ### API:
 
-- create user: POST ```http://localhost:8080/api/user```
-- create quote: POST ```http://localhost:8080/api/quote```
-- edit quote: PUT ```http://localhost:8080/api/quote```
+- create user: POST ```http://localhost:8080/api/user/```
+- create quote: POST ```http://localhost:8080/api/quote/```
+- edit quote: PUT ```http://localhost:8080/api/quote/```
 - delete quote: DELETE ```http://localhost:8080/api/quote/{id}```
 - get details of the quote: GET ```http://localhost:8080/api/quote/{id}```
 - get random quote: GET ```http://localhost:8080/api/quote/random```
