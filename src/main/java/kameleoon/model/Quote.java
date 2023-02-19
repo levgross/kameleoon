@@ -30,7 +30,7 @@ public class Quote {
     private int score;
     @JoinColumn(name = "date_of_update")
     private LocalDateTime dateOfUpdate = LocalDateTime.now();
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_posted_id")
     private User userPosted;
     @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
